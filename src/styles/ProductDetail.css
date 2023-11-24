@@ -1,0 +1,185 @@
+.top-bar {
+    background-color: #272343;
+    height: 90px;
+    margin: -8px -10px 0px;
+}
+
+.user-inffo {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: -75px;
+    margin-left: 1050px;
+}
+
+.go-to-list-button {
+    background-color: #4d4dd6;
+    color: white;
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    box-shadow: 4px 4px 8px rgba(245, 242, 242, 0.5);
+    margin-left: 45px;
+  }
+  
+
+.logout-button {
+    margin-top: -60px;
+    margin-left: 1580px;
+}
+
+.logout-button button {
+    background-color: rgb(77, 77, 222);
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    box-shadow: 4px 4px 8px rgba(245, 242, 242, 0.5); 
+}
+
+.cart-icon {
+    margin-top: 5px;
+}
+
+.product-details-container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: lightcyan;
+}
+
+.product-details-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.product-details-thumbnail {
+    width: 55%;
+    height: auto;
+    margin-right: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s;
+    margin-top: 25px;
+}
+
+.product-details-thumbnail:hover {
+    transform: scale(1.1);
+}
+
+.product-details-info {
+    border-top: 1px solid;
+    display: flex;
+    align-items: flex-start;
+}
+
+.product-details-description {
+    flex-grow: 1;
+}
+
+.product-details-price {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    display: block;
+}
+
+.discount-percentage {
+    color: #e44d26;
+    margin-right: 10px;
+}
+
+.discounted-price {
+    margin-right: 10px;
+    font-size: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.original-price {
+    text-decoration: line-through;
+}
+
+.product-details-discount {
+    color: #e44d26;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.product-details-discount:before {
+    content: '-';
+}
+
+.product-details-discount:after {
+    content: '% ₹'; 
+}
+
+.product-details-rating,
+.product-details-stock,
+.product-details-brand,
+.product-details-category {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+
+.product-details-images {
+    margin-top: 20px;
+    flex-direction: column;
+    display: block;
+    border-top: 1px solid
+}
+
+.product-details-images img {
+    padding: 20px;
+    width: 40%;
+    height: auto;
+    margin-bottom: 5px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.product-details-images img:hover {
+    transform: scale(1.7);
+}
+
+
+.product-details-rating {
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.star {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url('../../public/star.png') no-repeat;
+    background-size: contain;
+    margin-right: 5px;
+}
+
+.half-star {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url('../../public/rating.png') no-repeat;
+    background-size: contain;
+    margin-right: 5px;
+}
+
+p {
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

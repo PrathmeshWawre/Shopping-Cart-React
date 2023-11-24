@@ -1,0 +1,23 @@
+/* styles/ErrorRoute.css */
+
+.error-card {
+    background-color: #ffcccc;
+    border: 1px solid #e74c3c;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    font-family: 'Arial', sans-serif;
+    color: #e74c3c;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
